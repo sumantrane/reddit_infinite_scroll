@@ -14,10 +14,14 @@ npm install -g @angular/cli
 
 3. Clone this repository:
    git clone https://github.com/sumantrane/reddit_infinite_scroll.git
-   cd reddit-infinite-scroll
+
+4. change directory -> cd reddit-infinite-scroll
 
 4.Install project dependencies:
 npm install
 
 5.Start the Angular development server:
 ng serve
+
+6.Once project compiles successfully navigate to corresponsding port to see the live app.
+ex.http://localhost:4200/
