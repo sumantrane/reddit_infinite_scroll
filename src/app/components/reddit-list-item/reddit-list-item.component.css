@@ -1,0 +1,32 @@
+.reddit-list-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reddit-list-item a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.reddit-list-item a:hover {
+  color: #007bff;
+}
+
+.reddit-list-item h2 {
+  margin: 0 0 10px;
+}
+
+.reddit-list-item p {
+  margin: 0;
+  color: #777;
+}
+
+.reddit-list-item img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
