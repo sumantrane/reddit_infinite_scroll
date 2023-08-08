@@ -19,7 +19,6 @@ export class RedditListContainerComponent implements OnInit {
   loadPosts(): void {
     this.redditApiService.getPosts(this.after).subscribe((data) => {
       const newPosts = data.data.children.map((child: any) => child.data);
-      console.log('data:', newPosts);
       this.posts.push(...newPosts);
       this.after = data.data.after;
     });

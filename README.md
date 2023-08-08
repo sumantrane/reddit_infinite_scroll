@@ -13,7 +13,7 @@ npm install -g @angular/cli
 ```
 
 3. Clone this repository:
-   git clone https://github.com/yourusername/reddit-infinite-scroll.git
+   git clone https://github.com/sumantrane/reddit_infinite_scroll.git
    cd reddit-infinite-scroll
 
 4.Install project dependencies:
